@@ -7,6 +7,28 @@ explícita antes da próxima.
 
 ---
 
+## Fase -1 — Repositório, CI e deploy `[~]`
+
+- [x] Scaffold Vite + React 19 + TypeScript `strict`, com alias `@/*`
+- [x] Tailwind CSS v4 e shadcn/ui inicializado (sem componentes ainda)
+- [x] ESLint + Prettier integrados, sem conflito
+- [x] Vitest configurado, com um teste passando
+- [x] Estrutura de pastas criada com `.gitkeep`
+- [x] Página placeholder em `/`
+- [x] Node fixado em 24 (`.nvmrc` + `engines`), alinhado à Vercel
+- [x] `vercel.json` com rewrite de SPA, região `gru1` e headers de segurança
+- [x] `.env.example` documentado
+- [x] `docs/DEPLOY.md` com o passo a passo manual
+- [x] CI no GitHub Actions
+- [x] `CONTRIBUTING.md` e template de pull request
+- [x] `README.md`
+- [x] Commits semânticos no repositório local
+- [ ] **Push para o GitHub** (bloqueado: credencial de outra conta nesta máquina)
+- [ ] Deploy na Vercel (manual, ver `docs/DEPLOY.md`)
+- [ ] Branch protection em `main`
+
+---
+
 ## Fase 0 — Arquitetura e roadmap `[x]`
 
 - [x] `docs/ARCHITECTURE.md` — camadas, ports & adapters, fluxo de dados, estrutura de pastas
