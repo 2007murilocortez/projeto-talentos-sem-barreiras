@@ -5,7 +5,7 @@ vulnerabilidade.
 
 [![CI](https://github.com/2007murilocortez/projeto-talentos-sem-barreiras/actions/workflows/ci.yml/badge.svg)](https://github.com/2007murilocortez/projeto-talentos-sem-barreiras/actions/workflows/ci.yml)
 
-**Aplicação em produção:** <!-- deploy --> _(link a preencher após o primeiro deploy)_
+**Aplicação em produção:** <!-- deploy --> <https://projeto-talentos-sem-barreiras.vercel.app>
 
 ---
 

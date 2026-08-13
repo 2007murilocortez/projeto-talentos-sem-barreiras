@@ -24,7 +24,7 @@ explícita antes da próxima.
 - [x] `README.md`
 - [x] Commits semânticos no repositório local
 - [x] Push para o GitHub, com CI verde na primeira execução
-- [ ] Deploy na Vercel (manual, ver `docs/DEPLOY.md`)
+- [x] Deploy na Vercel: <https://projeto-talentos-sem-barreiras.vercel.app>
 - [ ] Branch protection em `main`
 
 ---
@@ -43,18 +43,22 @@ _Aceite: dá para entender o sistema inteiro lendo os documentos, sem ler códig
 
 ---
 
-## Fase 1 — Fundação `[ ]`
+## Fase 1 — Fundação `[x]`
 
-- [ ] Vite + React 19 + TypeScript `strict` (sem `any`)
-- [ ] ESLint + Prettier, com regra que barra import de `data/adapters` dentro de `features`
-- [ ] Tailwind configurado, estrutura de pastas criada
-- [ ] React Router com `RequireAuth` / `RequireRole` (papel mockado nesta fase)
-- [ ] Providers: Query, DataSource, Auth, Theme
-- [ ] `DesktopOnlyGate` (< 1280px)
-- [ ] `Result<T, E>` em `shared/lib`
-- [ ] Ports vazias declaradas + adapter in-memory esqueleto
-- [ ] Vitest rodando com um teste de fumaça
-- [ ] `.env.example`, README inicial, git com commits semânticos
+- [x] Vite + React 19 + TypeScript `strict` (sem `any`)
+- [x] ESLint + Prettier, com regra que barra import de `data/adapters` dentro de `features`
+- [x] Tailwind configurado, estrutura de pastas criada
+- [x] React Router com `RequireRole` (papel simulado nesta fase)
+- [x] Providers: Query, DataSource, Auth
+- [x] `DesktopOnlyGate` (< 1280px)
+- [x] `Result<T, E>` em `shared/lib`
+- [x] Leitura tipada das variáveis de ambiente concentrada em um módulo
+- [x] Ports declaradas + adapter in-memory esqueleto, escolhido por `VITE_DATA_SOURCE`
+- [x] Vitest com 11 testes passando
+- [x] `.env.example`, README, git com commits semânticos
+
+Assumido de propósito: o provider de tema entra na Fase 2, junto com os tokens do design system.
+A tela de acesso é provisória — escolhe o papel sem senha e é substituída na Fase 8.
 
 _Aceite: `npm run build`, `npm run lint` e `npm run test` passam limpos._
 
