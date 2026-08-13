@@ -23,7 +23,7 @@ explícita antes da próxima.
 - [x] `CONTRIBUTING.md` e template de pull request
 - [x] `README.md`
 - [x] Commits semânticos no repositório local
-- [ ] **Push para o GitHub** (bloqueado: credencial de outra conta nesta máquina)
+- [x] Push para o GitHub, com CI verde na primeira execução
 - [ ] Deploy na Vercel (manual, ver `docs/DEPLOY.md`)
 - [ ] Branch protection em `main`
 
